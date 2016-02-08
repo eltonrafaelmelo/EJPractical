@@ -5,12 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/EJPractical.svg?style=flat)](http://cocoapods.org/pods/EJPractical)
 [![Platform](https://img.shields.io/cocoapods/p/EJPractical.svg?style=flat)](http://cocoapods.org/pods/EJPractical)
 
+## Overview
+
+![](blinkinglabel.gif?raw=true "Blinking Label screenshot")
 
 ## Requirements
-iOS 8.0+ / Mac OS X 10.9+
-Xcode 6.4
+iOS 8.0+ 
+Xcode 6.4+
 
-## Installation
+## Installation with CocoaPods
 
 EJPractical is available through [CocoaPods](http://cocoapods.org). To install
 
