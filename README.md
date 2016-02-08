@@ -26,7 +26,9 @@ $ gem install cocoapods
 To integrate EJPractical into your Xcode project using CocoaPods, specify it in your Podfile:
 
 source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '8.0'
+
 use_frameworks!
 
 pod 'EJPractical'

@@ -6,7 +6,7 @@ protocol UtilKeyboardDataSouce: NSObjectProtocol{
     func utilKeiboardViewWhatIsUsedAsReferenceToCalculateAdjustmentRequired() -> UIView
 }
 
-class UtilKeyBoard: NSObject {
+public class UtilKeyBoard: NSObject {
     
     var deslocamentoNecessarioParaAjustarTeclado: CGPoint!
     var duracaoAnimacaoTeclado: Double!
@@ -14,7 +14,7 @@ class UtilKeyBoard: NSObject {
     
     var dataSource: UtilKeyboardDataSouce?
     
-    class func viewBotoesDeDeControleComConfirmacaoNoTarget(targetConfirmacao: AnyObject, metodoAcaoConfirmacao: Selector, tituloConfirmacao: String, targetCancelar: AnyObject, metodoAcaoCancelar: Selector, tituloCancelar: String, targetEsconderTeclado: AnyObject, metodoEsconderTeclado: Selector, corBotao1: String, corBotao2: String, corTextoBotao1Normal: String, corTextoBotao1Highlighted: String, corTextoBotao2Normal: String, corTextoBotao2Highlighted: String) -> UIView{
+    public class func viewBotoesDeDeControleComConfirmacaoNoTarget(targetConfirmacao: AnyObject, metodoAcaoConfirmacao: Selector, tituloConfirmacao: String, targetCancelar: AnyObject, metodoAcaoCancelar: Selector, tituloCancelar: String, targetEsconderTeclado: AnyObject, metodoEsconderTeclado: Selector, corBotao1: String, corBotao2: String, corTextoBotao1Normal: String, corTextoBotao1Highlighted: String, corTextoBotao2Normal: String, corTextoBotao2Highlighted: String) -> UIView{
         
         let dimensaoTela: CGRect = UIScreen.mainScreen().bounds
         
