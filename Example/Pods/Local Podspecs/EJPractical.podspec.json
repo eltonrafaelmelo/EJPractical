@@ -1,0 +1,25 @@
+{
+  "name": "EJPractical",
+  "version": "0.1.0",
+  "summary": "A short description of EJPractical.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EJPractical",
+  "license": "MIT",
+  "authors": {
+    "Elton Melo": "elton.rafaelmelo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EJPractical.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EJPractical": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

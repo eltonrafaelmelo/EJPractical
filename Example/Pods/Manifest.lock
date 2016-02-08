@@ -1,0 +1,14 @@
+PODS:
+  - EJPractical (0.1.0)
+
+DEPENDENCIES:
+  - EJPractical (from `../`)
+
+EXTERNAL SOURCES:
+  EJPractical:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EJPractical: 1cd9bfccc5d06ef75632944e4f8b2111f05eed9f
+
+COCOAPODS: 0.38.2

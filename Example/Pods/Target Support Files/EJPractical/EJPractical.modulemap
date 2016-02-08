@@ -1,0 +1,6 @@
+framework module EJPractical {
+  umbrella header "EJPractical-umbrella.h"
+
+  export *
+  module * { export * }
+}
