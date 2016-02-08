@@ -20,7 +20,7 @@ class TableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        textFieldValue.inputAccessoryView = UtilKeyBoard.viewBotoesDeDeControleComConfirmacaoNoTarget(self, metodoAcaoConfirmacao: "keyBoardConfirm", tituloConfirmacao: "Cancelar", targetCancelar: self, metodoAcaoCancelar: "keyBoardCancel", tituloCancelar: "Confirmar", targetEsconderTeclado: self, metodoEsconderTeclado: "turnOffField", corBotao1Ativado: "#E92B2A", corBotao1Desativado: "#731705", corBotao2Ativado: "#63C5F0", corBotao2Desativado: "#8E8E93", corTextoBotao1: "#FFFFFF", corTextoBotao2: "#FFFFFF")
+        textFieldValue.inputAccessoryView = UtilKeyBoard.viewBotoesDeDeControleComConfirmacaoNoTarget(self, metodoAcaoConfirmacao: "keyBoardConfirm", tituloConfirmacao: "Confirmar", targetCancelar: self, metodoAcaoCancelar: "keyBoardCancel", tituloCancelar: "Cancelar", targetEsconderTeclado: self, metodoEsconderTeclado: "turnOffField", corBotao1: "#E92B2A", corBotao2: "#731705", corTextoBotao1Normal: "#63C5F0", corTextoBotao1Highlighted: "#8E8E93", corTextoBotao2Normal: "#FFFFFF", corTextoBotao2Highlighted: "#FFFFFF")
     }
     
     func keyBoardConfirm() {

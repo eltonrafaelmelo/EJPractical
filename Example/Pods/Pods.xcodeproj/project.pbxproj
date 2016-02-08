@@ -15,6 +15,7 @@
 		498475D78B7436EF8AFA0B9790C8D127 /* UtilColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1DC5D09FC17ED904EEACD935C48FB /* UtilColors.swift */; };
 		4ECC330CA143CB55361E97AD65F82295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F91401009C6F8F7DECA9C70D92118E7 /* Foundation.framework */; };
 		6A2CCE1AF97829B997D42280F97F0DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F91401009C6F8F7DECA9C70D92118E7 /* Foundation.framework */; };
+		B1EADDED1C69412A002D3235 /* EJPractical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDEC1C69412A002D3235 /* EJPractical.swift */; };
 		B5C38049FD5AB43B0D33051539D00655 /* Pods-EJPractical_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE41BFF8B00E4DEA0B8635EAB9513C96 /* Pods-EJPractical_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3207672054DBB0F20B2B794E9ADDA4D /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D9DB20B850216EA9827BECD6AFED /* UIColor+Hex.swift */; };
 		E77971A18ABB00A53972071397BA4EA0 /* Pods-EJPractical_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C25F613CC9E66E75212D469428FDA8 /* Pods-EJPractical_Tests-dummy.m */; };
@@ -74,6 +75,7 @@
 		ADF298A0E81947AAAFE20066A0B6FE46 /* EJPractical.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EJPractical.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE16475A774987AFB1CDB8F0DDFB3569 /* Pods-EJPractical_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Example-resources.sh"; sourceTree = "<group>"; };
 		AE7FC2E73B790AE89E732DFBFA714380 /* EJPractical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EJPractical-umbrella.h"; sourceTree = "<group>"; };
+		B1EADDEC1C69412A002D3235 /* EJPractical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EJPractical.swift; sourceTree = "<group>"; };
 		BA37DB061929266818AF7F683CD0D8AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF5F63464C405659F050054B4178F3C7 /* Pods-EJPractical_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				04B7D9DB20B850216EA9827BECD6AFED /* UIColor+Hex.swift */,
 				52B1DC5D09FC17ED904EEACD935C48FB /* UtilColors.swift */,
 				C96E997C6DFFF6077BA37CB15C93CEEB /* UtilKeyBoard.swift */,
+				B1EADDEC1C69412A002D3235 /* EJPractical.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ADFBF842B0A0F298CF30F0BAEEE9B99 /* EJPractical-dummy.m in Sources */,
+				B1EADDED1C69412A002D3235 /* EJPractical.swift in Sources */,
 				E3207672054DBB0F20B2B794E9ADDA4D /* UIColor+Hex.swift in Sources */,
 				498475D78B7436EF8AFA0B9790C8D127 /* UtilColors.swift in Sources */,
 				0A745FACE72B7168430DF7F2FAADC312 /* UtilKeyBoard.swift in Sources */,
