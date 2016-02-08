@@ -31,7 +31,9 @@ platform :ios, '8.0'
 
 use_frameworks!
 
+```ruby
 pod 'EJPractical'
+```
 
 Then, run the following command:
 
