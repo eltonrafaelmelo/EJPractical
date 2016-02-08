@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16BBB084773F5FFFA8C286081B5D68BE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09C8D99387FE05E7B7616D842ADE822 /* ReplaceMe.swift */; };
 		1C4B1689D53AC0801D95954DEFBA206D /* EJPractical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38E09153E9802AB31E0FC6A94DD463 /* EJPractical-dummy.m */; };
 		39FFAE6D4E45EED927EEDD4BD9B0B291 /* Pods-EJPractical_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91CAC65BCC1308282D03B6394286FBD /* Pods-EJPractical_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ECC330CA143CB55361E97AD65F82295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */; };
 		6A2CCE1AF97829B997D42280F97F0DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */; };
 		7DE1E0AE844F216A20EEF05E791CB93F /* EJPractical-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99226C53B81B839C95060511CA9FE2F4 /* EJPractical-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1EADDE41C693776002D3235 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE21C693776002D3235 /* UIColor+Hex.swift */; };
+		B1EADDE51C693776002D3235 /* UtilColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE31C693776002D3235 /* UtilColors.swift */; };
+		B1EADDE71C693808002D3235 /* UtilKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE61C693808002D3235 /* UtilKeyBoard.swift */; };
 		B5C38049FD5AB43B0D33051539D00655 /* Pods-EJPractical_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE41BFF8B00E4DEA0B8635EAB9513C96 /* Pods-EJPractical_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D44975E9744CD8846995A5694A1BF221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */; };
 		D5D98DB53500102933D15A5CD4019549 /* EJPractical.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9E5F694F4F0A2AAB79782DF50D2F2E5 /* EJPractical.bundle */; };
@@ -70,7 +72,9 @@
 		99226C53B81B839C95060511CA9FE2F4 /* EJPractical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EJPractical-umbrella.h"; sourceTree = "<group>"; };
 		99C25F613CC9E66E75212D469428FDA8 /* Pods-EJPractical_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EJPractical_Tests-dummy.m"; sourceTree = "<group>"; };
 		AE16475A774987AFB1CDB8F0DDFB3569 /* Pods-EJPractical_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Example-resources.sh"; sourceTree = "<group>"; };
-		B09C8D99387FE05E7B7616D842ADE822 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		B1EADDE21C693776002D3235 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		B1EADDE31C693776002D3235 /* UtilColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilColors.swift; sourceTree = "<group>"; };
+		B1EADDE61C693808002D3235 /* UtilKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilKeyBoard.swift; sourceTree = "<group>"; };
 		BA37DB061929266818AF7F683CD0D8AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF5F63464C405659F050054B4178F3C7 /* Pods-EJPractical_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -170,7 +174,9 @@
 		585888EFE32B23453AAD94D78069C49F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B09C8D99387FE05E7B7616D842ADE822 /* ReplaceMe.swift */,
+				B1EADDE21C693776002D3235 /* UIColor+Hex.swift */,
+				B1EADDE31C693776002D3235 /* UtilColors.swift */,
+				B1EADDE61C693808002D3235 /* UtilKeyBoard.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -417,8 +423,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1EADDE41C693776002D3235 /* UIColor+Hex.swift in Sources */,
 				1C4B1689D53AC0801D95954DEFBA206D /* EJPractical-dummy.m in Sources */,
-				16BBB084773F5FFFA8C286081B5D68BE /* ReplaceMe.swift in Sources */,
+				B1EADDE51C693776002D3235 /* UtilColors.swift in Sources */,
+				B1EADDE71C693808002D3235 /* UtilKeyBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,8 +15,7 @@ Xcode 6.4
 
 ## Installation
 
-##EJPractical is available through [CocoaPods](http://cocoapods.org). To install
-##it, simply add the following line to your Podfile:
+EJPractical is available through [CocoaPods](http://cocoapods.org). To install
 
 CocoaPods is a dependency manager for Cocoa projects.
 
