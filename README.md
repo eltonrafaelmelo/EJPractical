@@ -5,9 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/EJPractical.svg?style=flat)](http://cocoapods.org/pods/EJPractical)
 [![Platform](https://img.shields.io/cocoapods/p/EJPractical.svg?style=flat)](http://cocoapods.org/pods/EJPractical)
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 iOS 8.0+ / Mac OS X 10.9+
@@ -38,7 +35,42 @@ pod 'EJPractical'
 
 Then, run the following command:
 
+
+```ruby
 $ pod install
+```
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+```Swift
+import EJPractical
+
+@IBOutlet weak var textFieldValue: UITextField!
+
+override func layoutSubviews() {
+super.layoutSubviews()
+
+textFieldValue.inputAccessoryView = UtilKeyBoard.viewBotoesDeDeControleComConfirmacaoNoTarget(self, metodoAcaoConfirmacao: "keyBoardConfirm", tituloConfirmacao: "Confirmar", targetCancelar: self, metodoAcaoCancelar: "keyBoardCancel", tituloCancelar: "Cancelar", targetEsconderTeclado: self, metodoEsconderTeclado: "turnOffField", corBotao1: "#E92B2A", corBotao2: "#731705", corTextoBotao1Normal: "#63C5F0", corTextoBotao1Highlighted: "#8E8E93", corTextoBotao2Normal: "#FFFFFF", corTextoBotao2Highlighted: "#FFFFFF")
+}
+
+func keyBoardConfirm() {
+
+turnOffField()
+}
+
+func keyBoardCancel() {
+
+turnOffField()
+
+}
+
+func turnOffField() {
+
+textFieldValue?.resignFirstResponder()
+}
+```
 
 ## Author
 
