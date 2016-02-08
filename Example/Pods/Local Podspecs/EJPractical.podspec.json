@@ -1,15 +1,15 @@
 {
   "name": "EJPractical",
   "version": "0.1.0",
-  "summary": "A short description of EJPractical.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EJPractical",
+  "summary": "Com EJPractical você consigirar criar UITextField com botões personalizados.",
+  "description": "Com EJPractical você consigirar criar UITextField com botões personalizados com a cor que preferir e com o nome de sua preferência.",
+  "homepage": "https://github.com/eltonrafaelmelo/EJPractical",
   "license": "MIT",
   "authors": {
     "Elton Melo": "elton.rafaelmelo@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EJPractical.git",
+    "git": "https://github.com/eltonrafaelmelo/EJPractical.git",
     "tag": "0.1.0"
   },
   "platforms": {

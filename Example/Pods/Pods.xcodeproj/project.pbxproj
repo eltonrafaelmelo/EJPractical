@@ -7,47 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C4B1689D53AC0801D95954DEFBA206D /* EJPractical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38E09153E9802AB31E0FC6A94DD463 /* EJPractical-dummy.m */; };
+		0A745FACE72B7168430DF7F2FAADC312 /* UtilKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E997C6DFFF6077BA37CB15C93CEEB /* UtilKeyBoard.swift */; };
+		1014F6141CEEE05F3B62564FA17018F3 /* EJPractical-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7FC2E73B790AE89E732DFBFA714380 /* EJPractical-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADFBF842B0A0F298CF30F0BAEEE9B99 /* EJPractical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFF6C26982A7DF884EA4E0637BAE229 /* EJPractical-dummy.m */; };
+		30B5F6FD0DD8CF55F32140F8EB6769A5 /* EJPractical.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADF298A0E81947AAAFE20066A0B6FE46 /* EJPractical.bundle */; };
 		39FFAE6D4E45EED927EEDD4BD9B0B291 /* Pods-EJPractical_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91CAC65BCC1308282D03B6394286FBD /* Pods-EJPractical_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECC330CA143CB55361E97AD65F82295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */; };
-		6A2CCE1AF97829B997D42280F97F0DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */; };
-		7DE1E0AE844F216A20EEF05E791CB93F /* EJPractical-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99226C53B81B839C95060511CA9FE2F4 /* EJPractical-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1EADDE41C693776002D3235 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE21C693776002D3235 /* UIColor+Hex.swift */; };
-		B1EADDE51C693776002D3235 /* UtilColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE31C693776002D3235 /* UtilColors.swift */; };
-		B1EADDE71C693808002D3235 /* UtilKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE61C693808002D3235 /* UtilKeyBoard.swift */; };
+		498475D78B7436EF8AFA0B9790C8D127 /* UtilColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1DC5D09FC17ED904EEACD935C48FB /* UtilColors.swift */; };
+		4ECC330CA143CB55361E97AD65F82295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F91401009C6F8F7DECA9C70D92118E7 /* Foundation.framework */; };
+		6A2CCE1AF97829B997D42280F97F0DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F91401009C6F8F7DECA9C70D92118E7 /* Foundation.framework */; };
 		B5C38049FD5AB43B0D33051539D00655 /* Pods-EJPractical_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE41BFF8B00E4DEA0B8635EAB9513C96 /* Pods-EJPractical_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D44975E9744CD8846995A5694A1BF221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */; };
-		D5D98DB53500102933D15A5CD4019549 /* EJPractical.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9E5F694F4F0A2AAB79782DF50D2F2E5 /* EJPractical.bundle */; };
+		E3207672054DBB0F20B2B794E9ADDA4D /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D9DB20B850216EA9827BECD6AFED /* UIColor+Hex.swift */; };
 		E77971A18ABB00A53972071397BA4EA0 /* Pods-EJPractical_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C25F613CC9E66E75212D469428FDA8 /* Pods-EJPractical_Tests-dummy.m */; };
 		EC610EBE212A036E9BF9962B5A11D0E0 /* Pods-EJPractical_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D333CC56087878E3218A9E7C162A485D /* Pods-EJPractical_Example-dummy.m */; };
+		F54B7DF97AD06D4C61C23A642695178B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F91401009C6F8F7DECA9C70D92118E7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23859E9EAF2EE62DC220BDF1AACEB50C /* PBXContainerItemProxy */ = {
+		A9B2C394FF302388DD01319DED788096 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2887B0E3571DB2E63AE13D5D445F02A6;
-			remoteInfo = EJPractical;
-		};
-		4D628D6051444B75B5720012E7C19065 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F68D3252415F913967C5C601C793B850;
+			remoteGlobalIDString = 27EDAD1A77E91BCB49B9CC6DFBB9A039;
 			remoteInfo = "EJPractical-EJPractical";
 		};
-		527936FC0DA360F235C626A1E494A76A /* PBXContainerItemProxy */ = {
+		BF2F7132C9748E626706F95CF8F820F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2887B0E3571DB2E63AE13D5D445F02A6;
+			remoteGlobalIDString = 5EE4116CE8FDE14425BE09B9B1076F77;
+			remoteInfo = EJPractical;
+		};
+		BFCEFE321C8C25177C0D3407BCFE51CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE4116CE8FDE14425BE09B9B1076F77;
 			remoteInfo = EJPractical;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05AA6925F908F5E4E3648B8F1971085B /* EJPractical-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EJPractical-Private.xcconfig"; sourceTree = "<group>"; };
+		00581B8518782346201918F8E0B59BD7 /* EJPractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EJPractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B7D9DB20B850216EA9827BECD6AFED /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		0677175CC9E05E1B965C67FF445A6225 /* Pods-EJPractical_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EJPractical_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		142674AF00B2A2F6B96F6DA3187546C9 /* EJPractical.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EJPractical.modulemap; sourceTree = "<group>"; };
 		1440140281BB22EA7306C9EE23A71ACD /* Pods-EJPractical_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EJPractical_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -55,44 +56,36 @@
 		22181376724C37BC3DED6078309194D1 /* Pods-EJPractical_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJPractical_Example.release.xcconfig"; sourceTree = "<group>"; };
 		26A94E8DAC53825F1258B1E2F6CA6FAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26C729FDC24B2B99120ACBCE977CEA6B /* Pods_EJPractical_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJPractical_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		358F6B924B70C118A111DB424D292565 /* EJPractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EJPractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		379342585E20A02F61EC57C6E3ADC53F /* Pods-EJPractical_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Tests-resources.sh"; sourceTree = "<group>"; };
 		3C7C5A3FB4AA7BD737A8671910FBC09C /* Pods-EJPractical_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJPractical_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4171A89DABA3BC9A296E2BAEACD20964 /* Pods_EJPractical_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EJPractical_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FFD655B16436046F6BC607137CD1DB /* Pods-EJPractical_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EJPractical_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BEC555733FC4847CC76FA9283A715D6 /* EJPractical-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EJPractical-prefix.pch"; sourceTree = "<group>"; };
-		4C38E09153E9802AB31E0FC6A94DD463 /* EJPractical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EJPractical-dummy.m"; sourceTree = "<group>"; };
+		52B1DC5D09FC17ED904EEACD935C48FB /* UtilColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UtilColors.swift; sourceTree = "<group>"; };
+		5F91401009C6F8F7DECA9C70D92118E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		693A443C498102DD8ECDB5AA2843F0D3 /* EJPractical.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EJPractical.xcconfig; sourceTree = "<group>"; };
+		6A28254285B0351889A29A568063D1F1 /* EJPractical-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EJPractical-Private.xcconfig"; sourceTree = "<group>"; };
 		730DFDB155F32B70624A934D5345B904 /* Pods-EJPractical_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EJPractical_Tests.modulemap"; sourceTree = "<group>"; };
 		78FDFFF5B3993F045B4FF30468D75953 /* Pods-EJPractical_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJPractical_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ADB83F6642C87D5DC7334F1AF511776 /* Pods-EJPractical_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EJPractical_Example.modulemap"; sourceTree = "<group>"; };
 		8400CCF6038318A55506A51CE9AD0D77 /* Pods-EJPractical_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EJPractical_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		94C4D5398C2A205431DE776EC1B85667 /* Pods-EJPractical_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Example-frameworks.sh"; sourceTree = "<group>"; };
-		97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		99226C53B81B839C95060511CA9FE2F4 /* EJPractical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EJPractical-umbrella.h"; sourceTree = "<group>"; };
 		99C25F613CC9E66E75212D469428FDA8 /* Pods-EJPractical_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EJPractical_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADF298A0E81947AAAFE20066A0B6FE46 /* EJPractical.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EJPractical.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE16475A774987AFB1CDB8F0DDFB3569 /* Pods-EJPractical_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Example-resources.sh"; sourceTree = "<group>"; };
-		B1EADDE21C693776002D3235 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		B1EADDE31C693776002D3235 /* UtilColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilColors.swift; sourceTree = "<group>"; };
-		B1EADDE61C693808002D3235 /* UtilKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilKeyBoard.swift; sourceTree = "<group>"; };
+		AE7FC2E73B790AE89E732DFBFA714380 /* EJPractical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EJPractical-umbrella.h"; sourceTree = "<group>"; };
 		BA37DB061929266818AF7F683CD0D8AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF5F63464C405659F050054B4178F3C7 /* Pods-EJPractical_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EJPractical_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C9E5F694F4F0A2AAB79782DF50D2F2E5 /* EJPractical.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EJPractical.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96E997C6DFFF6077BA37CB15C93CEEB /* UtilKeyBoard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UtilKeyBoard.swift; sourceTree = "<group>"; };
 		CE41BFF8B00E4DEA0B8635EAB9513C96 /* Pods-EJPractical_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EJPractical_Example-umbrella.h"; sourceTree = "<group>"; };
 		D333CC56087878E3218A9E7C162A485D /* Pods-EJPractical_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EJPractical_Example-dummy.m"; sourceTree = "<group>"; };
 		E91CAC65BCC1308282D03B6394286FBD /* Pods-EJPractical_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EJPractical_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EBFF6C26982A7DF884EA4E0637BAE229 /* EJPractical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EJPractical-dummy.m"; sourceTree = "<group>"; };
 		F93E2B26E481218513CCFC45CBCE873F /* Pods-EJPractical_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EJPractical_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F2E5656AF4A87C986450C3F12A61036 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63F6CBB8D117F25D8BF1541127B877FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,11 +94,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75E782DFD11903481FB1761F0CE25A3F /* Frameworks */ = {
+		B50B98ADADE449A0180195475E599752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44975E9744CD8846995A5694A1BF221 /* Foundation.framework in Frameworks */,
+				F54B7DF97AD06D4C61C23A642695178B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,13 +110,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3E44B44BE5A2105AF5A5EBEA852B5B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		07B94ADC9BC6AF7A7ED3223E05EFF7A1 /* EJPractical */ = {
 			isa = PBXGroup;
 			children = (
-				8BB8F50A9EA6E5076374AA0456BD8097 /* Pod */,
+				FE02BF33D3993E0671C0797CC05D9273 /* Pod */,
 				5704756801A1CE252D99444C1793C720 /* Support Files */,
 			);
 			name = EJPractical;
@@ -151,7 +151,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				97AEAEB3B8DA15DC332C2F47EB375242 /* Foundation.framework */,
+				5F91401009C6F8F7DECA9C70D92118E7 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -161,22 +161,22 @@
 			children = (
 				142674AF00B2A2F6B96F6DA3187546C9 /* EJPractical.modulemap */,
 				693A443C498102DD8ECDB5AA2843F0D3 /* EJPractical.xcconfig */,
-				05AA6925F908F5E4E3648B8F1971085B /* EJPractical-Private.xcconfig */,
-				4C38E09153E9802AB31E0FC6A94DD463 /* EJPractical-dummy.m */,
+				6A28254285B0351889A29A568063D1F1 /* EJPractical-Private.xcconfig */,
+				EBFF6C26982A7DF884EA4E0637BAE229 /* EJPractical-dummy.m */,
 				4BEC555733FC4847CC76FA9283A715D6 /* EJPractical-prefix.pch */,
-				99226C53B81B839C95060511CA9FE2F4 /* EJPractical-umbrella.h */,
+				AE7FC2E73B790AE89E732DFBFA714380 /* EJPractical-umbrella.h */,
 				BA37DB061929266818AF7F683CD0D8AC /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EJPractical";
 			sourceTree = "<group>";
 		};
-		585888EFE32B23453AAD94D78069C49F /* Classes */ = {
+		76FFFCC856232D1297029F0D1E230160 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B1EADDE21C693776002D3235 /* UIColor+Hex.swift */,
-				B1EADDE31C693776002D3235 /* UtilColors.swift */,
-				B1EADDE61C693808002D3235 /* UtilKeyBoard.swift */,
+				04B7D9DB20B850216EA9827BECD6AFED /* UIColor+Hex.swift */,
+				52B1DC5D09FC17ED904EEACD935C48FB /* UtilColors.swift */,
+				C96E997C6DFFF6077BA37CB15C93CEEB /* UtilKeyBoard.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -190,14 +190,6 @@
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				F2D914EE5223E94DBF1DAD57EC544ABC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8BB8F50A9EA6E5076374AA0456BD8097 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				585888EFE32B23453AAD94D78069C49F /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		939AA154574DAE77969B50F5402B45C3 /* Pods-EJPractical_Tests */ = {
@@ -237,8 +229,8 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9E5F694F4F0A2AAB79782DF50D2F2E5 /* EJPractical.bundle */,
-				358F6B924B70C118A111DB424D292565 /* EJPractical.framework */,
+				ADF298A0E81947AAAFE20066A0B6FE46 /* EJPractical.bundle */,
+				00581B8518782346201918F8E0B59BD7 /* EJPractical.framework */,
 				4171A89DABA3BC9A296E2BAEACD20964 /* Pods_EJPractical_Example.framework */,
 				26C729FDC24B2B99120ACBCE977CEA6B /* Pods_EJPractical_Tests.framework */,
 			);
@@ -254,14 +246,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FE02BF33D3993E0671C0797CC05D9273 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				76FFFCC856232D1297029F0D1E230160 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		56148BB1B990D67A27BC7082D3B569FE /* Headers */ = {
+		4D5488C4E25BFECBE12979247C538740 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DE1E0AE844F216A20EEF05E791CB93F /* EJPractical-umbrella.h in Headers */,
+				1014F6141CEEE05F3B62564FA17018F3 /* EJPractical-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,30 +295,47 @@
 			buildRules = (
 			);
 			dependencies = (
-				96D41C0880E2936DE2071BC0FBA2A970 /* PBXTargetDependency */,
+				DAF0980C4E614C56762CEC7A5C239D65 /* PBXTargetDependency */,
 			);
 			name = "Pods-EJPractical_Tests";
 			productName = "Pods-EJPractical_Tests";
 			productReference = 26C729FDC24B2B99120ACBCE977CEA6B /* Pods_EJPractical_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2887B0E3571DB2E63AE13D5D445F02A6 /* EJPractical */ = {
+		27EDAD1A77E91BCB49B9CC6DFBB9A039 /* EJPractical-EJPractical */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D16C9D347A46AF67DB7999DF7228A3 /* Build configuration list for PBXNativeTarget "EJPractical" */;
+			buildConfigurationList = 9925937D631E1EF16A298EE29A26A397 /* Build configuration list for PBXNativeTarget "EJPractical-EJPractical" */;
 			buildPhases = (
-				6EB79C383465D4B447CAB6952087026D /* Sources */,
-				75E782DFD11903481FB1761F0CE25A3F /* Frameworks */,
-				C0B21B57BB09CB6529682EF8DA946C1A /* Resources */,
-				56148BB1B990D67A27BC7082D3B569FE /* Headers */,
+				02A1A0EA7704B5F35DE29BB3CA90CB77 /* Sources */,
+				D3E44B44BE5A2105AF5A5EBEA852B5B9 /* Frameworks */,
+				49F663A5F3EE173257BC1F3571573594 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F6291F2B5A58262B146DE9DE8B3BF51F /* PBXTargetDependency */,
+			);
+			name = "EJPractical-EJPractical";
+			productName = "EJPractical-EJPractical";
+			productReference = ADF298A0E81947AAAFE20066A0B6FE46 /* EJPractical.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5EE4116CE8FDE14425BE09B9B1076F77 /* EJPractical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD592140EBFABA11009F73E1241DD14 /* Build configuration list for PBXNativeTarget "EJPractical" */;
+			buildPhases = (
+				26C9133115F8750202DBA765503941D4 /* Sources */,
+				B50B98ADADE449A0180195475E599752 /* Frameworks */,
+				90E2363217363C695BC1C49F12AAC857 /* Resources */,
+				4D5488C4E25BFECBE12979247C538740 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25207C61A2E393EBE036AB74E16B4737 /* PBXTargetDependency */,
 			);
 			name = EJPractical;
 			productName = EJPractical;
-			productReference = 358F6B924B70C118A111DB424D292565 /* EJPractical.framework */;
+			productReference = 00581B8518782346201918F8E0B59BD7 /* EJPractical.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC97A3436B4A0C74FAF2AE2FD0AD1595 /* Pods-EJPractical_Example */ = {
@@ -332,29 +349,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				65079FF31CD140203CD42B87FF11FE87 /* PBXTargetDependency */,
+				CDE541130753C117F9900C43D8308CD2 /* PBXTargetDependency */,
 			);
 			name = "Pods-EJPractical_Example";
 			productName = "Pods-EJPractical_Example";
 			productReference = 4171A89DABA3BC9A296E2BAEACD20964 /* Pods_EJPractical_Example.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		F68D3252415F913967C5C601C793B850 /* EJPractical-EJPractical */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E0ECC30CA4FB52F74D832011F278AFE /* Build configuration list for PBXNativeTarget "EJPractical-EJPractical" */;
-			buildPhases = (
-				085EB2A91F3452D13C77B24C800099A7 /* Sources */,
-				3F2E5656AF4A87C986450C3F12A61036 /* Frameworks */,
-				4F0BFE4C6E4B97E328E46224A2729A79 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "EJPractical-EJPractical";
-			productName = "EJPractical-EJPractical";
-			productReference = C9E5F694F4F0A2AAB79782DF50D2F2E5 /* EJPractical.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -377,8 +377,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2887B0E3571DB2E63AE13D5D445F02A6 /* EJPractical */,
-				F68D3252415F913967C5C601C793B850 /* EJPractical-EJPractical */,
+				5EE4116CE8FDE14425BE09B9B1076F77 /* EJPractical */,
+				27EDAD1A77E91BCB49B9CC6DFBB9A039 /* EJPractical-EJPractical */,
 				DC97A3436B4A0C74FAF2AE2FD0AD1595 /* Pods-EJPractical_Example */,
 				0315E32F984F5F96949D197E1F0D3ED5 /* Pods-EJPractical_Tests */,
 			);
@@ -386,28 +386,39 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F0BFE4C6E4B97E328E46224A2729A79 /* Resources */ = {
+		49F663A5F3EE173257BC1F3571573594 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B21B57BB09CB6529682EF8DA946C1A /* Resources */ = {
+		90E2363217363C695BC1C49F12AAC857 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D98DB53500102933D15A5CD4019549 /* EJPractical.bundle in Resources */,
+				30B5F6FD0DD8CF55F32140F8EB6769A5 /* EJPractical.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		085EB2A91F3452D13C77B24C800099A7 /* Sources */ = {
+		02A1A0EA7704B5F35DE29BB3CA90CB77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C9133115F8750202DBA765503941D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADFBF842B0A0F298CF30F0BAEEE9B99 /* EJPractical-dummy.m in Sources */,
+				E3207672054DBB0F20B2B794E9ADDA4D /* UIColor+Hex.swift in Sources */,
+				498475D78B7436EF8AFA0B9790C8D127 /* UtilColors.swift in Sources */,
+				0A745FACE72B7168430DF7F2FAADC312 /* UtilKeyBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,17 +427,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77971A18ABB00A53972071397BA4EA0 /* Pods-EJPractical_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB79C383465D4B447CAB6952087026D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1EADDE41C693776002D3235 /* UIColor+Hex.swift in Sources */,
-				1C4B1689D53AC0801D95954DEFBA206D /* EJPractical-dummy.m in Sources */,
-				B1EADDE51C693776002D3235 /* UtilColors.swift in Sources */,
-				B1EADDE71C693808002D3235 /* UtilKeyBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,23 +441,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65079FF31CD140203CD42B87FF11FE87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EJPractical;
-			target = 2887B0E3571DB2E63AE13D5D445F02A6 /* EJPractical */;
-			targetProxy = 23859E9EAF2EE62DC220BDF1AACEB50C /* PBXContainerItemProxy */;
-		};
-		96D41C0880E2936DE2071BC0FBA2A970 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EJPractical;
-			target = 2887B0E3571DB2E63AE13D5D445F02A6 /* EJPractical */;
-			targetProxy = 527936FC0DA360F235C626A1E494A76A /* PBXContainerItemProxy */;
-		};
-		F6291F2B5A58262B146DE9DE8B3BF51F /* PBXTargetDependency */ = {
+		25207C61A2E393EBE036AB74E16B4737 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "EJPractical-EJPractical";
-			target = F68D3252415F913967C5C601C793B850 /* EJPractical-EJPractical */;
-			targetProxy = 4D628D6051444B75B5720012E7C19065 /* PBXContainerItemProxy */;
+			target = 27EDAD1A77E91BCB49B9CC6DFBB9A039 /* EJPractical-EJPractical */;
+			targetProxy = A9B2C394FF302388DD01319DED788096 /* PBXContainerItemProxy */;
+		};
+		CDE541130753C117F9900C43D8308CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EJPractical;
+			target = 5EE4116CE8FDE14425BE09B9B1076F77 /* EJPractical */;
+			targetProxy = BF2F7132C9748E626706F95CF8F820F1 /* PBXContainerItemProxy */;
+		};
+		DAF0980C4E614C56762CEC7A5C239D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EJPractical;
+			target = 5EE4116CE8FDE14425BE09B9B1076F77 /* EJPractical */;
+			targetProxy = BFCEFE321C8C25177C0D3407BCFE51CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -495,34 +495,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		204878E3B962296BF4DD4F578882492E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05AA6925F908F5E4E3648B8F1971085B /* EJPractical-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EJPractical/EJPractical-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EJPractical/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EJPractical/EJPractical.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EJPractical;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		24B54A89859F724C47F02F207A6BD58F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -583,18 +555,6 @@
 			};
 			name = Release;
 		};
-		3C6FBA47B4402E54F38407D434FB8FB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05AA6925F908F5E4E3648B8F1971085B /* EJPractical-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = EJPractical;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		4A0F94ABEDEF43ABEFEE1CD8D19A743B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78FDFFF5B3993F045B4FF30468D75953 /* Pods-EJPractical_Tests.debug.xcconfig */;
@@ -624,6 +584,18 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4AE0A610C96DA512EA781FF4FE9FCA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A28254285B0351889A29A568063D1F1 /* EJPractical-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EJPractical;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -664,6 +636,46 @@
 			};
 			name = Debug;
 		};
+		9F5BED1F38D9D21AB19AC02809C2E56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A28254285B0351889A29A568063D1F1 /* EJPractical-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EJPractical/EJPractical-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EJPractical/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EJPractical/EJPractical.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EJPractical;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA72AD0182A2EB7138C0CE7B6E528CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A28254285B0351889A29A568063D1F1 /* EJPractical-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EJPractical;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		C3DE1989E91AF116F1280C63BDA5DDB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22181376724C37BC3DED6078309194D1 /* Pods-EJPractical_Example.release.xcconfig */;
@@ -693,21 +705,9 @@
 			};
 			name = Release;
 		};
-		CEE66C7778392B394320C9911C749D2B /* Debug */ = {
+		FF1F8B1657AF26A15B5FC2972D85A59B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05AA6925F908F5E4E3648B8F1971085B /* EJPractical-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = EJPractical;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F26D2328AA6797D865505D9BDF94C9FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05AA6925F908F5E4E3648B8F1971085B /* EJPractical-Private.xcconfig */;
+			baseConfigurationReference = 6A28254285B0351889A29A568063D1F1 /* EJPractical-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.1.0;
@@ -753,15 +753,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E0ECC30CA4FB52F74D832011F278AFE /* Build configuration list for PBXNativeTarget "EJPractical-EJPractical" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEE66C7778392B394320C9911C749D2B /* Debug */,
-				3C6FBA47B4402E54F38407D434FB8FB6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		799E3F30E5A516D966D010E9344F06A6 /* Build configuration list for PBXNativeTarget "Pods-EJPractical_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -771,11 +762,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D16C9D347A46AF67DB7999DF7228A3 /* Build configuration list for PBXNativeTarget "EJPractical" */ = {
+		9925937D631E1EF16A298EE29A26A397 /* Build configuration list for PBXNativeTarget "EJPractical-EJPractical" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				204878E3B962296BF4DD4F578882492E /* Debug */,
-				F26D2328AA6797D865505D9BDF94C9FA /* Release */,
+				AA72AD0182A2EB7138C0CE7B6E528CD3 /* Debug */,
+				4AE0A610C96DA512EA781FF4FE9FCA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD592140EBFABA11009F73E1241DD14 /* Build configuration list for PBXNativeTarget "EJPractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5BED1F38D9D21AB19AC02809C2E56D /* Debug */,
+				FF1F8B1657AF26A15B5FC2972D85A59B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

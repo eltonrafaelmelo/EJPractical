@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B1EADDEA1C693D22002D3235 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE81C693D22002D3235 /* TableViewCell.swift */; };
+		B1EADDEB1C693D22002D3235 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EADDE91C693D22002D3235 /* TableViewController.swift */; };
 		DAA5BF76F552D3809838AEDA /* Pods_EJPractical_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63169731004913B5F268CA9 /* Pods_EJPractical_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DDDACB69AD07EC062EC3D871 /* Pods_EJPractical_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0761945E683F1ADE981208A2 /* Pods_EJPractical_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -43,6 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6AE7061FC9AFE1F5FEB4948B /* Pods-EJPractical_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJPractical_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EJPractical_Tests/Pods-EJPractical_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		80BFED00FBFF12159B83DDA8 /* Pods-EJPractical_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJPractical_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EJPractical_Example/Pods-EJPractical_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B1EADDE81C693D22002D3235 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B1EADDE91C693D22002D3235 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E7EC226703329EE9C254B497 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBED8A56277F5346D3198842 /* Pods-EJPractical_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EJPractical_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EJPractical_Tests/Pods-EJPractical_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F30A54B0B4B46B05690ECAC0 /* EJPractical.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EJPractical.podspec; path = ../EJPractical.podspec; sourceTree = "<group>"; };
@@ -103,11 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				B1EADDE81C693D22002D3235 /* TableViewCell.swift */,
+				B1EADDE91C693D22002D3235 /* TableViewController.swift */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
 			);
 			name = "Example for EJPractical";
 			path = EJPractical;
@@ -359,8 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1EADDEA1C693D22002D3235 /* TableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B1EADDEB1C693D22002D3235 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
