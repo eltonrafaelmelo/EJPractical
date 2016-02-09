@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32319F4F7C842CA4D7A80B0A"
+               BlueprintIdentifier = "EDAAF49AD08C68C6EC53A8DD"
                BuildableName = "EJPractical.framework"
                BlueprintName = "EJPractical"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'EJPractical_Example', :exclusive => true do
-  pod 'EJPractical', :path => '../'
+  pod "EJPractical", :path => "../"
 end
 
 target 'EJPractical_Tests', :exclusive => true do
-  pod 'EJPractical', :path => '../'
+  pod "EJPractical", :path => "../"
 
   
 end
