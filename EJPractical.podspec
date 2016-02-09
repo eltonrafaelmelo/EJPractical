@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description      = "Com EJPractical você consigirar criar UITextField com botões personalizados com a cor que preferir e com o nome de sua preferência."
 
   s.homepage         = "https://github.com/eltonrafaelmelo/EJPractical"
-  s.screenshots     = "https://www.dropbox.com/s/crppsfatt3jlt5y/gifExample.gif?dl=0&preview=gifExample.gif"
+#s.screenshots     = "https://www.dropbox.com/s/wbwgp076n9v5yzb/exampleScreen.png?dl=0&preview=exampleScreen.png"
   s.license          = 'MIT'
   s.author           = { "Elton Melo" => "elton.rafaelmelo@gmail.com" }
   s.source           = { :git => "https://github.com/eltonrafaelmelo/EJPractical.git", :tag => s.version.to_s }
