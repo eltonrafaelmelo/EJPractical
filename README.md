@@ -7,7 +7,7 @@
 
 ## Overview
 
-![](blinkinglabel.gif?raw=true "Blinking Label screenshot")
+![](gifExample.gif?raw=true "Keyborad screenshot")
 
 ## Requirements
 iOS 8.0+ 
