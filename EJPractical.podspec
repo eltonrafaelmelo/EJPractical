@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EJPractical"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Com EJPractical você consigirar criar UITextField com botões personalizados."
   s.description      = "Com EJPractical você consigirar criar UITextField com botões personalizados com a cor que preferir e com o nome de sua preferência."
 
